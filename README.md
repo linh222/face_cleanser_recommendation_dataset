@@ -1,4 +1,4 @@
-# Enhancing Recommendation Systems in Vietnamese E-commerce For Face Cleanser: A Comparative Study and Dataset Release
+# ViEcomRec: A Novel Dataset for Recommendation Systems in Vietnamese E-commerce For Face Cleanser Products
 
 ## Introduction
 This repository introduces a Vietnamese dataset specifically designed for e-commerce recommendation systems, focusing on face cleanser products. With 369,099 user-item interactions, it offers valuable insights into personalized shopping experiences. We provide comprehensive baseline experiments, comparing content-based and attribute-based filtering approaches.
