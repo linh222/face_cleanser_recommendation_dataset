@@ -3,7 +3,7 @@
 ## Introduction
 This repository introduces a Vietnamese dataset specifically designed for e-commerce recommendation systems, focusing on face cleanser products. With 369,099 user-item interactions, it offers valuable insights into personalized shopping experiences. We provide comprehensive baseline experiments, comparing content-based and attribute-based filtering approaches.
 
-<img src="images/Method_Shopee.jpeg" alt="Alt text" width="500" height="300">
+<img src="images/Method_Shopee.jpeg" alt="Alt text">
 
 ## Dataset
 The dataset has 2244 items and 369,099 reviews from 304,708 users. To extract useful attributes from the product descriptions, an attribute extraction stage is performed using InstructGPT. 
