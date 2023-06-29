@@ -1,6 +1,6 @@
 This is the data dictionary to explain the Dataset. There are 4 csv files describe the reviews, shop, product and extracted attributes.
 The link to the dataset: https://drive.google.com/drive/folders/1AvR71nHxK81DEtwFBAJzYDyBAou4YgmQ?usp=sharing
-shopee_reviews_purchase: Data reviews or in other words historical data with 9 attributes:
+data_reviews_purchase: Data reviews or in other words historical data with 9 attributes:
     user_id: int, unique user id ranging from 0 to 304707 for the total of 304708 users.
     product_id: int, unique product id, ranging from 0 to 2243 for the total of 2244 products.
     rating: int, number of stars that users rated, value set is 1, 2, 3, 4, 5.
@@ -11,7 +11,7 @@ shopee_reviews_purchase: Data reviews or in other words historical data with 9 a
     product_quality: int, star vote for product quality, value set is from 1 to 5.
     comment: str, the text reviews of users on the products.
 
-shopee_product: Data about products with 23 attributes:
+data_product: Data about products with 23 attributes:
     product_id: int, unique product id, ranging from 0 to 2243 for the total of 2244 products. This can be mapped to product_id in shopee_reviews_purchase.
     shop_id: int, unique shop id, rating from 0 to 1290 with 1291 shops. This can be mapped to shop_id in shopee_shop
     product_name: str, name of the purchase product, associate to the product_id.
@@ -37,7 +37,7 @@ shopee_product: Data about products with 23 attributes:
     send_from: str, the location of the product that it is send from.
     image_path: str, the name of the product image in the folder image.
 
-shopee_product_attribute: Data about products with 23 attributes:
+data_product_attribute: Data about products with 23 attributes:
     product_id: int, unique product id, ranging from 0 to 2243 for the total of 2244 products. This can be mapped to product_id in shopee_reviews_purchase.
     shop_id: int, unique shop id, rating from 0 to 1290 with 1291 shops. This can be mapped to shop_id in shopee_shop
     product_name: str, name of the purchase product, associate to the product_id.
@@ -50,7 +50,7 @@ shopee_product_attribute: Data about products with 23 attributes:
     expiry: str, the expiry of the product extracted from the description. Example: 3 years from manufacturing date.
     origin: str, the origin of the product extracted from the description. Example: Vietnam.
 
-shopee_shop: Data about shops with 11 attributes:
+data_shop: Data about shops with 11 attributes:
     shop_id: int, unique shop id, rating from 0 to 1290 with 1291 shops.
     is_shopee_verified: bool, the shop is verified by shopee or not.
     is_preferred_plus_seller: bool, the shop is preferred plus or not.
