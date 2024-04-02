@@ -1,7 +1,7 @@
 # ViEcomRec: A Novel Dataset for Recommendation Systems in Vietnamese E-commerce For Face Cleanser Products
 
 ## Introduction
-This repository introduces a Vietnamese dataset specifically designed for e-commerce recommendation systems, focusing on face cleanser products. This is published in CSoNet 2023 Conference and made available on [Doras DCU][https://doras.dcu.ie/29693/].
+This repository introduces a Vietnamese dataset specifically designed for e-commerce recommendation systems, focusing on face cleanser products. This is published in the CSoNet 2023 Conference and made available on [Doras DCU][https://doras.dcu.ie/29693/].
  With 369,099 user-item interactions, it offers valuable insights into personalized shopping experiences. We provide comprehensive baseline experiments, comparing content-based and attribute-based filtering approaches.
 
 <img src="images/Method_Shopee.jpeg" alt="Alt text" width="500" height="350">
@@ -34,19 +34,17 @@ In this approach, called embedding-based attribute filtering, textual attributes
 ## Reference
 If you use the dataset, please cite this paper:
 
-    @inproceedings{tran-etal-2022-aspect,
-    title = "Aspect-based Sentiment Analysis for {V}ietnamese Reviews about Beauty Product on {E}-commerce Websites",
-    author = "Tran, Quang-Linh  and
-      Le, Phan Thanh Dat  and
-      Do, Trong-Hop",
-    editor = "Dita, Shirley  and
-      Trillanes, Arlene  and
-      Lucas, Rochelle Irene",
-    booktitle = "Proceedings of the 36th Pacific Asia Conference on Language, Information and Computation",
-    month = oct,
-    year = "2022",
-    address = "Manila, Philippines",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.paclic-1.84",
-    pages = "767--776",
+    @inproceedings{viecomrec,
+    author="Tran, Quang-Linh
+    and Nguyen, Binh T.
+    and Jones, Gareth J. F.
+    and Gurrin, Cathal",
+    title="ViEcomRec: A Dataset for Recommendation in Vietnamese E-Commerce",
+    booktitle="Computational Data and Social Networks",
+    year="2024",
+    publisher="Springer Nature Singapore",
+    address="Singapore",
+    pages="74--82",
+    isbn="978-981-97-0669-3"
     }
+
