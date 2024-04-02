@@ -1,7 +1,8 @@
 # ViEcomRec: A Novel Dataset for Recommendation Systems in Vietnamese E-commerce For Face Cleanser Products
 
 ## Introduction
-This repository introduces a Vietnamese dataset specifically designed for e-commerce recommendation systems, focusing on face cleanser products. With 369,099 user-item interactions, it offers valuable insights into personalized shopping experiences. We provide comprehensive baseline experiments, comparing content-based and attribute-based filtering approaches.
+This repository introduces a Vietnamese dataset specifically designed for e-commerce recommendation systems, focusing on face cleanser products. This is published in CSoNet 2023 Conference and made available on [Doras DCU][https://doras.dcu.ie/29693/].
+ With 369,099 user-item interactions, it offers valuable insights into personalized shopping experiences. We provide comprehensive baseline experiments, comparing content-based and attribute-based filtering approaches.
 
 <img src="images/Method_Shopee.jpeg" alt="Alt text" width="500" height="350">
 
